@@ -1,17 +1,11 @@
 /*Faça um algoritmo que pegue o preço do arroz e mostre na tela*/
 
-#include <cstdio>
+#include <iostream>
 
 int main () {
-    //Entrada de dados
-    float arroz;
-
-    //Entrada de dados
-    printf("Insira o valor do arroz: ");
-    scanf("%f", &arroz);
-
-    //Saída de dados
-    printf("O arroz está custando %.2f R$", arroz);
-
+    double arroz;
+    std::cout<<"Insira o valor do arroz: ";
+    std::cin>>arroz;
+    std::cout<<"O arroz custa "<<arroz<<" R$";
     return 0;
 }

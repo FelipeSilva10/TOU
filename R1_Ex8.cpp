@@ -1,17 +1,11 @@
 /*Faça um algoritmo que pegue a quantidade de cartinhas que uma pessoa tem e mostre na tela*/
 
-#include <cstdio>
+#include <iostream>
 
 int main () {
-    //Declaração de variável
     int cartinhas;
-
-    //Entrada de dados
-    printf("Insira a quantidade de cartinhas: ");
-    scanf("%d", &cartinhas);
-
-    //Saída de dados
-    printf("Você tem %d cartinhas", cartinhas);
-
+    std::cout<<"Insira a quantidade de cartinhas que você tem: ";
+    std::cin>>cartinhas;
+    std::cout<<"Você tem "<<cartinhas<<" cartinhas";
     return 0;
 }
