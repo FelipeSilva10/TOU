@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int main() {
-    std::cout <<"Felipe" <<std::endl;
+int main(){
+    std::cout<<"Felipe";
     return 0;
 }
