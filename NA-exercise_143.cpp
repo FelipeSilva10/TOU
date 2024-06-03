@@ -16,15 +16,13 @@ O valor fornecido não será negativo nem maior que 10000
 
 #include <iostream>
 
-using namespace std;
-
 int main(){
     //Declaração de variáveis
     int C;
     int Q = 0, R100 = 0, R50 = 0, R25 = 0, R10 = 0, R5 = 0, R1 = 0;
     //Entrada de dados
-    cout<<"Insira o troco: ";
-    cin>>C;
+    std::cout<<"Insira o troco: ";
+    std::cin>>C;
     if(C>0&C<10000)
     {
         while(C>0&C>=100)
@@ -65,13 +63,13 @@ int main(){
         }
     }
     //Saída de dados
-    cout<<"Quantidade de moedas: "<<Q<<endl;
-    cout<<"Moedas de 1 real: "<<R100<<endl;
-    cout<<"Moedas de 50 centavos: "<<R50<<endl;
-    cout<<"Moedas de 25 centavos: "<<R25<<endl;
-    cout<<"Moedas de 10 centavos: "<<R10<<endl;
-    cout<<"Moedas de 5 centavos: "<<R5<<endl;
-    cout<<"Moedas de 1 centavos: "<<R1<<endl;
+    std::cout<<"Quantidade de moedas: "<<Q;
+    std::cout<<"\nMoedas de 1 real: "<<R100;
+    std::cout<<"\nMoedas de 50 centavos: "<<R50;
+    std::cout<<"\nMoedas de 25 centavos: "<<R25;
+    std::cout<<"\nMoedas de 10 centavos: "<<R10;
+    std::cout<<"\nMoedas de 5 centavos: "<<R5;
+    std::cout<<"\nMoedas de 1 centavos: "<<R1;
 
     return 0;
 }
