@@ -21,13 +21,19 @@ int main() {
  //Declaração de variáveis
  int M,H =0;
  //Entrada de dados
- std::cout<<"Minutos: \n";
+ std::cout<<"Minutos: ";
  std::cin>>M;
  //Lógica
- while(M>=60) {
-  H=H+1;
-  M=M-60;
+ if(M<=1000) {
+   while(M>=60) {
+       H=H+1;
+       M=M-60;
+   }
  }
+ else {
+     return 0;
+ }
+
  //Saída de dados
  std::cout<<H<<" Horas\n"<<M<<" Minutos";
 
