@@ -25,6 +25,7 @@ int main(){
     }else{
         cout << "N" << "\n";
     }
+    return 0;
 }
 
 
