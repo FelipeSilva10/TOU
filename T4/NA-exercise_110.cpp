@@ -26,7 +26,7 @@ int main() {
     }
     //Analisar a maior sequência registrada
     for (int i = 0; i < y; i++) {
-        std::cout<<Sequencia[i]<<;
+        std::cout<<Sequencia[i];
         if(Sequencia[i]>Sequencia[i-1]) {
             Contador=Sequencia[i];
         }
