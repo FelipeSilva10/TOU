@@ -7,7 +7,7 @@ int main() {
     //Declaração de variáveis
     int L; //Indica a linha que será realizada a operação
     int M[12][12]; //Matriz que armazena os 144 elementos
-    char T;; //Tipo de operação
+    char T; //Tipo de operação
     long double Total = 0; //Variável que armazena o valor final
     //Entrada de dados
     std::cin >> L; //Linha que será considerada para operação
